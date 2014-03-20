@@ -1,0 +1,201 @@
+<html>
+<!--Data Transition : slide, slideup, slidedown, pop, fade, flip, turn, flow, slidefade-->
+<head>
+	<title>Amirul Mu'minin</title>
+	<meta charset="utf-8">
+		<title>. . .</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+		<link rel="stylesheet" href="jquery.mobile-1.4.0.min.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="jquery.mobile-1.4.0.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b" data-fullscreen="true">
+			<h3> Tugas 2 (Data Grid) </h3>
+		</div>
+		
+		<div data-role="content">
+			<div class="ui-grid-a ui-corner-tl ui-corner-tr">
+				<div class="ui-block-a">
+					<div class="ui-bar ui-bar-c">
+						<a href="#video" data-transition="turn">
+							<img src="video.png" width="150" height="150">
+							<br>
+							<span class="icon-label">Video</span>
+						</a>
+					</div>
+				</div>
+					
+				<div class="ui-block-b">
+					<div class="ui-bar ui-bar-c">
+						<a href="#image" data-transition="turn">
+							<img src="jpeg.png" width="150" height="150">
+							<br>
+							<span class="icon-label">Image</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div data-role="content">
+			<div class="ui-grid-a ui-corner-tl ui-corner-tr">
+				<div class="ui-block-a">
+					<div class="ui-bar ui-bar-c">
+						<a href="#music" data-transition="turn">
+							<img src="music.png" width="150" height="150">
+							<br>
+							<span class="icon-label">Music</span>
+						</a>
+					</div>
+				</div>
+				
+				<div class="ui-block-b">
+					<div class="ui-bar ui-bar-c">
+						<a href="#animation" data-transition="turn">
+							<img src="gif.png" width="150" height="150">
+							<br>
+							<span class="icon-label">Animation</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h3>DOTA 2 ID : Niman</h3>
+		</div>
+	</div>
+	
+	<div data-role="page" id="video">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-role="button" data-theme="b" data-icon="arrow-l" data-mini="true" data-transition="flow">Back</a>
+				<h3> Video </h3>
+		</div>
+		
+		<div data-role="content" align="center">
+			<video w=400 h=400 controls>
+				<source src="Cadbury Eyebrows (official version).mp4" type="video/mp4">
+			</video>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h3> DOTA 2 ID : Niman </h3>
+		</div>
+	</div>
+	
+	<div data-role="page" id="image">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-role="button" data-theme="b" data-icon="arrow-l" data-mini="true" data-transition="flow">Back</a>
+				<h3> Image </h3>
+		</div>
+		
+		<div data-role="content" align="center">
+			<div class="ui-grid-b ui-corner-tl ui-corner-tr">
+			
+				<div class="ui-block-a" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto1" data-rel="dialog" data-transition="slideup">
+							<img src="AXE.jpg" width="175" height="150">
+							<br>
+							<span class="icon-label">Axe</span>
+						</a>
+					</div>
+				</div>
+			
+				<div class="ui-block-b" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto2" data-rel="dialog" data-transition="slideup">
+							<img src="JUG.jpg" width="175" height="150">
+							<br>
+							<span class="icon-label">Juggernaut</span>
+						</a>
+					</div>
+				</div>
+	
+				<div class="ui-block-c" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto3" data-rel="dialog" data-transition="slideup">
+							<img src="LION.jpg" width="175" height="150">
+							<br>
+							<span class="icon-label">Lion</span>
+						</a>
+					</div>
+				</div>
+			</div>
+	
+			<div class="ui-grid-b ui-corner-tl ui-corner-tr">
+			
+				<div class="ui-block-a" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto4" data-rel="dialog" data-transition="slideup">
+							<img src="MIRANA.jpg" width="150" height="150">
+							<br>
+							<span class="icon-label">Mirana</span>
+						</a>
+					</div>
+				</div>
+			
+				<div class="ui-block-b" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto5" data-rel="dialog" data-transition="slideup">
+							<img src="DAZ.jpg" width="125" height="150">
+							<br>
+							<span class="icon-label">Dazzle</span>
+						</a>
+					</div>
+				</div>
+	
+				<div class="ui-block-c" >
+					<div class="ui-bar ui-bar-c">
+						<a href="#foto6" data-rel="dialog" data-transition="slideup">
+							<img src="SVEN.jpg" width="150" height="150">
+							<br>
+							<span class="icon-label">Sven</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h3> DOTA 2 ID : Niman </h3>
+		</div>
+	</div>
+	
+	<div data-role="page" id="animation">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-role="button" data-theme="b" data-icon="arrow-l" data-mini="true" data-transition="flow">Back</a>
+				<h3> Animation </h3>
+		</div>
+		
+		<div data-role="content" align="center">
+			<img src="gif.gif" width="300" height="300">
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h3> DOTA 2 ID : Niman </h3>
+		</div>
+	</div>
+	
+	<div data-role="page" id="music">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-role="button" data-theme="b" data-icon="arrow-l" data-mini="true" data-transition="flow">Back</a>
+				<h3> Music </h3>
+		</div>
+		
+		<div data-role="content" align="center">
+			<audio controls="controls">
+				<source src="lagu.mp3" type="audio/mp3">
+			</audio>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h3> DOTA 2 ID : Niman </h3>
+		</div>
+	</div>
+</body>
+
+</html>
